@@ -1,9 +1,25 @@
 
-
-
 header{
     background-color: black;
     color: white;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin: 5px;
+    list-style: none;
 }
 
 .music{
@@ -26,16 +42,26 @@ header{
 }
 
 
-
-
-
-
-
-
-
 #footer-wrapper{
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media{
+    font-size: 13px;
+    color: white;
+    margin-bottom: 10px;
 }
