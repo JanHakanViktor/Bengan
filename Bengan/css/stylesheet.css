@@ -19,12 +19,18 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
+    align-items: center;
+}
+
+.bengans-container{
+    flex-basis: 15%;
 }
 
 .bengans{
-    flex-basis: 15%
+    height: 45px;
+    width: 225px;
+    
 }
-
 
 .search-bar-container{
     display: flex;
@@ -100,7 +106,6 @@ a{
     max-width: 160px;
     margin: 5px;
 }
-
 
 
 #footer-wrapper{
