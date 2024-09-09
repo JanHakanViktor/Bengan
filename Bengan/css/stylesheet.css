@@ -4,42 +4,103 @@ header{
     color: white;
 }
 
-
-
-nav{
+.top-logo{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    padding-top: 15px;
 }
 
-ul{
+.we-love-music{
+    max-width: 216px;
+    align-items: center;
+}
+
+#headContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.bengans{
+    flex-basis: 15%
+}
+
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.search{
+    width: 90%;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.region{
+    max-height: 20px;
+    max-height: 20px;
+    margin: 5px;
+}
+
+.profile{
+    max-height: 20px;
+    max-height: 20px;
+    margin: 5px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li{
     margin: 5px;
     list-style: none;
-}
-
-.music{
-    display: block;
-    padding: 5px;
-    margin: auto;
-    max-height: 27px;
-    min-height: 27px;
+    color: white;
 }
 
 
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-.skivor{
+.rea{
+    justify-content: center;
+    align-self: center;
+    width: 1000px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+a{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.skivor-meny{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 155px;
-    height: 155px;
-    margin: auto;
 }
+
+.skivor{
+    max-width: 160px;
+    margin: 5px;
+}
+
 
 
 #footer-wrapper{
@@ -50,7 +111,6 @@ li{
     flex-wrap: wrap;
     padding: 15px;
 }
-
 
 .footer-bottom{
     display: flex;
