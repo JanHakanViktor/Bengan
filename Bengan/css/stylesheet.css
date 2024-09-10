@@ -78,6 +78,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    padding: 0;
 }
 
 .nav-list-item{
@@ -91,6 +92,7 @@ header{
 }
 
 li{
+    justify-content: center;
     margin: 5px;
     list-style: none;
 }
