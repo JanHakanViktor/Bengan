@@ -14,7 +14,7 @@ header{
 }
 
 .logotyp{
-    font-size: 38px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: bold;
     margin: 0;
@@ -24,8 +24,8 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .bengans-container{
@@ -77,10 +77,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 }
 
 .nav-list-item{
     text-decoration: none;
+    font-weight: bold;
 }
 
 :hover.nav-list-item{
@@ -91,10 +93,13 @@ header{
 li{
     margin: 5px;
     list-style: none;
+}
+
+a{
+    list-style: none;
     color: white;
     text-decoration: none;
 }
-
 
 #main-container{
     display: flex;
@@ -114,18 +119,12 @@ li{
 
 .music-video{
     width: 1250px;
+    border-radius: 400px;
 }
 
-.thastrom{
+.thastrom, .rea, .skylt{
+    width: 1100px;
     margin-bottom: 15px;
-}
-
-.rea{
-    justify-content: center;
-    align-self: center;
-    width: 1000px;
-    height: auto;
-    margin-bottom: 25px;
 }
 
 a{
@@ -133,36 +132,59 @@ a{
     font-family: sans-serif;
 }
 
-.skivor-meny{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 .skivor{
-    max-width: 160px;
+    width: 170px;
     margin: 5px;
 }
+
 
 .lazy-load{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.records{
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    width: auto;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
 }
 
 footer{
     background-color: black;
     color: white;
+    padding: 5px;
 }
 
 #footer-wrapper{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
 }
 
 .footer-bottom{
@@ -171,27 +193,62 @@ footer{
     background-color: black;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
 }
 
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
 
+h6{
+    font-size: 13px;
+    font-weight: 100;
+    font-family: sans-serif;
 
+}
 
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 35px;
+    width: 200px;
+}
 
-
-
-
+.email-button{
+    margin-left: 5px;
+    width: 50px;
+    height: 35px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
 .social-media{
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 400;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+.socials{
+    width: 30px;
+    margin: 2px;
+}
 .pay{
     margin-bottom: 10px;
 }
 
 .copy{
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 13px;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 16px;
+    color: black;
 }

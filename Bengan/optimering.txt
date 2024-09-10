@@ -1,0 +1,4 @@
+Lazy loading på bilder som ej syns utan att scrolla
+Filer har komprimerats utan att påverka kvalitén märkbart
+Istället för att ha logga utav bild, återskapades den med enbart CSS med bra resultat. 
+Stylat bilder i samma storlekar i css och lagt samman på samma rad för att minimera antal rader och text. 
