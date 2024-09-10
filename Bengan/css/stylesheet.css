@@ -20,7 +20,7 @@ header{
     margin: 0;
 }
 
-#headContainer{
+#header-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
